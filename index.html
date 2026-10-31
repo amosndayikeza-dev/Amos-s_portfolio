@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Set the saved theme before first paint to avoid a flash. Dark is the default. -->
+    <script>
+      try {
+        if (localStorage.getItem('theme') === 'light') {
+          document.documentElement.classList.remove('dark');
+        }
+      } catch (e) {}
+    </script>
+
+    <title>Amos Ndayikeza · Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Amos Ndayikeza is a backend-focused full-stack developer and Software Engineering student in Bujumbura, Burundi, building with PHP, Spring Boot and React."
+    />
+    <meta name="theme-color" content="#09090b" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph / social previews. Add og:image and og:url once you have a domain. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Amos Ndayikeza · Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="Full-stack developer working with Laravel, Spring Boot and React. Based in Bujumbura, Burundi."
+    />
+    <meta name="twitter:card" content="summary" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

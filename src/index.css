@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-white font-sans text-zinc-600 antialiased dark:bg-zinc-950 dark:text-zinc-400;
+  }
+
+  ::selection {
+    @apply bg-accent-500/30;
+  }
+}
+
+@layer components {
+  /* Visible keyboard focus on every interactive element. */
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-600 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-accent-400 dark:focus-visible:ring-offset-zinc-950;
+  }
+}
