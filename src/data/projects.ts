@@ -24,8 +24,8 @@ export const projects: Project[] = [
     category: 'Full-stack',
     tech: ['PHP (MVC)', 'MySQL', 'Chart.js', 'HTML', 'CSS'],
     // image: { src: '/projects/likilimba.png', alt: 'Screenshot of Likilimba', width: 1280, height: 800 },
-    liveUrl: '[Add live link]',
-    githubUrl: '[Add GitHub link]',
+    liveUrl: 'https://github.com/amosndayikeza-dev/likilimba',
+    githubUrl: 'https://github.com/amosndayikeza-dev/likilimba',
   },
   {
     id: 'collections-national-museum',
@@ -41,8 +41,8 @@ export const projects: Project[] = [
     ],
     category: 'Backend-focused',
     tech: ['PHP', 'MySQL', 'SQL triggers', 'phpMyAdmin', 'Batch'],
-    liveUrl: '[https://github.com/amosndayikeza-dev/likilimba]',
-    githubUrl: '[https://github.com/amosndayikeza-dev/likilimba]',
+    liveUrl: 'https://github.com/amosndayikeza-dev/likilimba',
+    githubUrl: 'https://github.com/amosndayikeza-dev/likilimba',
   },
   {
     id: 'e-commerce-bujumbura',
@@ -58,8 +58,8 @@ export const projects: Project[] = [
     ],
     category: 'Full-stack',
     tech: ['Java 21', 'Spring Boot', 'React', 'TypeScript', 'MySQL', 'JPA', 'JWT', 'OpenFeign'],
-    liveUrl: '[https://github.com/amosndayikeza-dev/ecommerce-bujumbura]',
-    githubUrl: '[https://github.com/amosndayikeza-dev/ecommerce-bujumbura]',
+    liveUrl: 'https://github.com/amosndayikeza-dev/ecommerce-bujumbura',
+    githubUrl: 'https://github.com/amosndayikeza-dev/ecommerce-bujumbura',
   },
   {
     id: 'spa-ngozi',
@@ -68,7 +68,7 @@ export const projects: Project[] = [
     description: 'still working on it',
     category: 'Frontend',
     tech: ['React'],
-    liveUrl: '[https://github.com/amosndayikeza-dev/aspa_ngozi]',
-    githubUrl: '[https://github.com/amosndayikeza-dev/aspa_ngozi]',
+    liveUrl: 'https://github.com/amosndayikeza-dev/aspa_ngozi',
+    githubUrl: 'https://github.com/amosndayikeza-dev/aspa_ngozi',
   },
 ];
